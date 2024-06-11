@@ -16,7 +16,7 @@ Este script en Python obtiene reglas de prevención de intrusiones (IPS) desde l
    cd deepsecurity_ipsrules
     ```
 2. Instalación `JQ`:
-    - En Debian/Ubuntu:
+   En Debian/Ubuntu:
       ```bash
       sudo apt-get install jq
       ```
