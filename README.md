@@ -4,9 +4,8 @@ Este script en Python obtiene reglas de prevención de intrusiones (IPS) desde l
 
 ## Requisitos
 
-- Python 3.x
-- La biblioteca `requests`
-- La herramienta `jq` instalada en el sistema para procesar el archivo JSON y convertirlo a CSV.
+- La La herramienta `jq` instalada en tu sistema
+- Claves de API TrendMicro
 
 ## Instalación
 
@@ -31,7 +30,7 @@ Este script en Python obtiene reglas de prevención de intrusiones (IPS) desde l
     python3 ipsrules_download.py
     ```
 
-3. Se generaran dos archivos con nombre `ipsrules_YYYYMMDD.json` y `ipsrules_YYYYMMDD.csv`, donde `YYYYMMDD` es la fecha actual.
+3. Se generarán dos archivos con nombre `ipsrules_YYYYMMDD.json` y `ipsrules_YYYYMMDD.csv`, donde `YYYYMMDD` es la fecha actual.
 
 ## Estructura del archivo
 
